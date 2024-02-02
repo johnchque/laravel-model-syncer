@@ -1,0 +1,23 @@
+{
+    "name": "johnchque/laravel-model-syncer",
+    "description": "A laravel package that allows models to be exported as ZIP files including any related models.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Johnchque\\LaravelModelSyncer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "John Choque",
+            "email": "johnchque.tech@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+        "php": "^7.3|^8.0",
+        "illuminate/database": "^8.0|^9.0|^10.0",
+        "illuminate/filesystem": "^8.0|^9.0|^10.0"
+    }
+}
